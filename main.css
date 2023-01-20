@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('/photos/background.jpg');
+    background-size: cover;
+    font-family: Consolas, monaco, monospace;
+    min-height: 100%;
+}
+#container-top {
+    background-color: #002333e3;
+    border-radius: 30px 30px 0px 30px;
+    border: 2px solid #deefe751;
+    padding: 10px 15px;
+    margin: 10px 5px 3px 5px;
+}
+
+#container-midle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 580px;
+}
+#container-bottom {
+    height: 100px;
+    position: relative;
+    bottom: 3px;
+    background-color: #002333e3;
+    border-radius: 0px 0px 30px 30px;
+    border: 2px solid #deefe751;
+    padding: 10px 15px;
+    margin: 10px 5px 3px 5px;
+}
+#title {
+    font-size: 50px;
+    margin-left: 15px;
+    color: #DEEFE7;
+    text-shadow: 0px 1px #deefe780;
+    letter-spacing: 3px;
+}
+
+#contact {
+    float: right;
+    width: 25%;
+    background-color: #002333e3;
+    border-radius: 30px 0px 30px 30px;
+    border: 2px solid #deefe751;
+    padding: 10px 30px;
+    margin-right: 5px;
+    height: 200px;
+}
+
+#contact ul {
+    list-style: none;
+    color: #DEEFE7;
+}
+
+.project-window {
+    position: relative;
+    top: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+    float: left;
+    display: block;
+    height: 40%;
+    margin: 0 20px;
+}
